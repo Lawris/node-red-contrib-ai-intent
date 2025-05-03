@@ -147,7 +147,7 @@ const createFunctionsFromContext = (rawIntents = {}) => {
                             required,
                             additionalProperties: false
                         },
-                        strict: true
+                        strict: false
                     },
                 };
             })
